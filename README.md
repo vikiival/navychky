@@ -15,8 +15,10 @@ npx skills add vikiival/navychky
 A single skill:
 
 ```bash
-npx skills add vikiival/navychky --skill handoff
+npx skills add vikiival/navychky --skill <skill-name>
 ```
+
+For example: `npx skills add vikiival/navychky --skill nasa-handbook`.
 
 See what's available without installing:
 
@@ -31,6 +33,8 @@ Add `-g` to install globally (user-level) instead of into the current project.
 | Skill | What it does |
 | --- | --- |
 | [handoff](skills/handoff/SKILL.md) | Writes a lean, next-task-focused handoff file and starts a fresh session, instead of an expensive `/compact`. |
+| [pulsum](skills/pulsum/SKILL.md) | Safely pulls upstream changes and briefs you on what changed, who did it, and why. Originally authored by [Ryan Vogel (@R44VC0RP)](https://github.com/R44VC0RP); [source](https://github.com/R44VC0RP/skills/tree/main/skills/pulsum). |
+| [nasa-handbook](skills/nasa-handbook/SKILL.md) | Creates printable Apollo-era technical handbook pages. Originally authored by [Ryan Vogel (@R44VC0RP)](https://github.com/R44VC0RP); [source](https://github.com/R44VC0RP/skills/tree/main/skills/nasa-handbook). Font assets retain their separate licenses. |
 
 ## Layout
 
